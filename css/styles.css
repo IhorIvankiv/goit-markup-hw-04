@@ -37,7 +37,7 @@ h6 {
 
 button {
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 img {
@@ -55,7 +55,7 @@ body {
 .link {
   text-decoration: none;
   color: inherit;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .visually-hidden {
@@ -100,11 +100,12 @@ body {
 
 .header {
   display: flex;
-  padding: 24px 0;
 }
 
 .header-container {
   display: flex;
+  align-items: center;
+  height: 72px;
 }
 
 .header-navigation {
@@ -119,6 +120,7 @@ body {
 
 .header-address {
   display: flex;
+  align-items: center;
 }
 
 .address-list {
@@ -155,21 +157,24 @@ body {
 }
 
 .hero-section {
+  display: flex;
+  align-items: center;
   text-align: center;
+  height: 600px;
   background: var(--primary-bg-color);
-  margin: 0;
+  margin-bottom: 120px;
 }
 
 .hero-title {
   width: 496px;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
-  padding: 188px 0 48px 0;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -182,7 +187,6 @@ body {
   color: #fff;
   padding: 16px 32px;
   border-radius: 4px;
-  margin-bottom: 250px;
 }
 
 .hero-button:hover,
@@ -203,7 +207,7 @@ body {
 
 .features-list {
   display: flex;
-  padding: 120px 0;
+  margin-bottom: 120px;
   gap: 24px;
 }
 
@@ -241,7 +245,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--secondary-text-color);
-  margin: 0 0 120px 0;
+  margin-bottom: 120px;
 }
 
 .doing-list {
@@ -309,7 +313,6 @@ body {
   padding-right: 0 auto;
   flex-wrap: wrap;
   gap: 24px;
-
 }
 
 .filter-img {
@@ -345,29 +348,32 @@ body {
 
 .footer {
   display: flex;
+  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
+  height: 310px;
   background: var(--primary-bg-color);
 }
+
 .footer-container {
   margin: 0 auto;
   width: 1158px;
-  padding-top: 100px;
 }
 
 .navi-footer {
+  display: flex;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   text-transform: uppercase;
   color: #4d5ae5;
-  width: 1158px;
 }
 
 .logo-footer {
+  display: flex;
   color: #f4f4fd;
-  margin: 0;
+  padding-bottom: 16px;
 }
 
 .footer-text {
@@ -377,5 +383,4 @@ body {
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
   width: 264px;
-  margin-bottom: 100px;
 }
