@@ -37,6 +37,7 @@ h6 {
 
 button {
   cursor: pointer;
+  transition: .3s;
 }
 
 img {
@@ -54,6 +55,7 @@ body {
 .link {
   text-decoration: none;
   color: inherit;
+  transition: .3s;
 }
 
 .visually-hidden {
@@ -228,10 +230,6 @@ body {
   margin-bottom: 72px;
 }
 
-.doing-img {
-  margin-right: 24px;
-}
-
 .team-section {
   display: flex;
   background-color: var(--light-mode-bg);
@@ -251,6 +249,7 @@ body {
   display: flex;
   align-self: center;
   margin-bottom: 120px;
+  gap: 24px;
 }
 
 .filter-text {
