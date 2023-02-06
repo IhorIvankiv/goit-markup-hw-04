@@ -197,7 +197,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  margin: 0;
+  margin: 0 0 8px 0;
 }
 
 .features-list {
@@ -207,7 +207,6 @@ body {
 }
 
 .features-item {
-  display: flex;
   width: 264px;
 }
 
@@ -371,6 +370,8 @@ body {
 
 .footer {
   display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
   background: var(--primary-bg-color);
 }
 .footer-container {
