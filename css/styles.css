@@ -342,30 +342,7 @@ body {
   background: var(--light-mode-bg);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-}
-
-.button1 {
-  width: 69px;
-  height: 48px;
-}
-
-.button2 {
-  width: 116px;
-  height: 48px;
-}
-
-.button3 {
-  width: 78px;
-  height: 48px;
-}
-
-.button4 {
-  width: 101px;
-  height: 48px;
-}
-.button5 {
-  width: 126px;
-  height: 48px;
+  padding: 12px 24px;
 }
 
 .footer {
