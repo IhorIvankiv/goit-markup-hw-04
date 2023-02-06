@@ -180,8 +180,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.04em;
   color: #fff;
-  width: 169px;
-  height: 56px;
+  padding: 16px 32px;
   border-radius: 4px;
   margin-bottom: 250px;
 }
