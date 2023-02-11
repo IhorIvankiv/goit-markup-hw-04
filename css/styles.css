@@ -277,6 +277,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  margin-bottom: 8px;
 }
 
 .team-soc-list {
@@ -286,15 +287,26 @@ body {
 }
 
 .team-soc-item {
+  display: flex;
+  justify-content: center;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+  background-color: #404bbf;
 }
 
 .team-soc-item {
 }
 
 .team-soc-link {
+  display: flex;
+  align-items: center;
+}
 
+.team-soc-icon {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
 }
 
 .filter-section {
