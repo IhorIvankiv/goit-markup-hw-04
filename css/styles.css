@@ -318,6 +318,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  cursor: pointer;
   background-color: var(--active-states-color);
 }
 
@@ -333,6 +334,59 @@ body {
   width: 16px;
   height: 16px;
   fill: #fff;
+}
+
+.customers-section {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  padding-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-client-link:is(:hover, :focus) {
+  border-color: var(--pressed-state-color);
+}
+
+.customers-client-link:is(:hover, :focus) .customers-client-icon {
+  fill: var(--pressed-state-color);
+}
+
+.customers-client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  color: #999999;
+}
+
+.customers-client-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: currentColor;
+}
+
+.card-content {
+  padding: 32px 16px;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
 
 .filter-section {
@@ -355,13 +409,6 @@ body {
 
 .filter-list-item {
   width: calc((100% - 48px) / 3);
-}
-
-.card-content {
-  padding: 32px 16px;
-  border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
 }
 
 .filter-subtitle {
@@ -393,52 +440,6 @@ body {
   border-radius: 4px;
   padding: 12px 24px;
 }
-
-.customers-section {
-  padding-top: 130px;
-  padding-bottom: 120px;
-}
-
-.customers-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  padding-bottom: 72px;
-}
-
-.customers-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
-.customers-client-link:is(:hover, :focus) {
-  border-color: var(--pressed-state-color)
-}
-
-.customers-client-link:is(:hover, :focus) .customers-client-icon {
-  fill: var(--pressed-state-color);
-}
-
-.customers-client-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 168px;
-  height: 88px;
-  border: 1px solid #999;
-  border-radius: 4px;
-  color: #999999;
-}
-
-.customers-client-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  fill: currentColor;
-  }
 
 .footer {
   padding: 100px 0;
