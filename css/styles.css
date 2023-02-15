@@ -411,6 +411,7 @@ body {
 }
 
 .filter-list-item {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   width: calc((100% - 48px) / 3);
 }
 
