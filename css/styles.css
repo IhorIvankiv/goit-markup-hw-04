@@ -13,6 +13,7 @@
   );
   --footer-item-activ: rgba(255, 255, 255, 0.1);
   --footer--item-pressed: #31d0aa;
+  --light-slate: #8E8F99;
 }
 
 ul {
@@ -375,7 +376,7 @@ body {
   height: 88px;
   border: 1px solid #999;
   border-radius: 4px;
-  color: #999999;
+  color: var(--light-slate);
 }
 
 .customers-client-icon {
